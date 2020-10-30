@@ -15,14 +15,14 @@
 using namespace vex;
 
 /* --- Motor constructors --- */
-motor FrontLeft = motor(PORT11, ratio18_1, false);
-motor FrontRight = motor(PORT5, ratio18_1, true);
-motor BackLeft = motor(PORT20, ratio18_1, false);
-motor BackRight = motor(PORT10, ratio18_1, true);
-motor LeftIntake = motor(PORT6, ratio18_1, false);
-motor RightIntake = motor(PORT7, ratio18_1, true);
+motor FrontLeft = motor(PORT20, ratio18_1, false);
+motor FrontRight = motor(PORT11, ratio18_1, true);
+motor BackLeft = motor(PORT10, ratio18_1, false);
+motor BackRight = motor(PORT1, ratio18_1, true);
+motor LeftIntake = motor(PORT15, ratio18_1, false);
+motor RightIntake = motor(PORT16, ratio18_1, true);
 motor BottomRoller = motor(PORT17, ratio18_1, false);
-motor TopRoller = motor(PORT15, ratio18_1, false);
+motor TopRoller = motor(PORT4, ratio18_1, true);
 
 int main() {
   // Initializing Robot Configuration. DO NOT REMOVE!
